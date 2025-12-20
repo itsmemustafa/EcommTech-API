@@ -1,0 +1,22 @@
+1- design and analyse the database schema
+2- implement the database schema
+3- implement the authentication system
+4- implement the authorization system with the roles (admin, user)
+5- implement the product system
+6- implement the category system
+7- implement the inventory system
+8- implement the order system
+9- implement the cart system
+10- use cloud to store the images 
+
+
+enhancements :
+study and enhance the security of the application
+study and enhance the performance of the application
+study and enhance the scalability of the application
+
+optional : 
+1- auth 1 
+2- caching 
+3- payment integration
+4- notification system
