@@ -1,12 +1,14 @@
-1- design and analyse the database schema
-2- implement the database schema
-3- implement the authentication system
-4- implement the authorization system with the roles (admin, user)
-5- implement the product system
-6- implement the category system
+1- design and analyse the database schema ✅
+2- implement error handling middleware ✅
+3- implement daatabase models 
+3- implement the authentication system ✅
+4- implement the authorization system ✅
+ with the roles (admin, user)
+5- implement the category system
+6- implement the product system
 7- implement the inventory system
-8- implement the order system
-9- implement the cart system
+8- implement the cart system
+9- implement the order system
 10- use cloud to store the images 
 
 
@@ -19,4 +21,5 @@ optional :
 1- auth 1 
 2- caching 
 3- payment integration
-4- notification system
+4- notification system( after learning websockets)
+
