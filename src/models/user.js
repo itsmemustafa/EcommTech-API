@@ -33,6 +33,15 @@ const UserSchema = new mongoose.Schema(
       enum: ["user", "admin"],
       default: "user",
     },
+    address: {
+      street: String,
+      city: String,
+      zipCode: String,
+      country: String,
+    },
+    phone: {
+      type: String,
+    },
     refreshToken: {
       type: String,
     },
@@ -40,11 +49,12 @@ const UserSchema = new mongoose.Schema(
       type: Date,
     },
     isVerified: {
-    type: Boolean,
-    default: false
-  },
-  verificationToken: String,
-  verificationTokenExpiry: Date
+      type: Boolean,
+      default: false,
+    },
+
+    verificationToken: String,
+    verificationTokenExpiry: Date,
   },
   { timestamps: true }
 );
@@ -97,5 +107,5 @@ UserSchema.methods.verifyRefreshToken = function (token) {
   return token === this.refreshToken;
 };
 
-const User = mongoose.model("Users", UserSchema);
+const User = mongoose.model("User", UserSchema);
 export default User;

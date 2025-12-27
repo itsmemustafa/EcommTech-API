@@ -25,6 +25,7 @@ try{
 
      // role: payload.role,
     };
+    next();
 
 }
 catch(err)
